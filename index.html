@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>NAV</nav>
+      <main>
+        <div class="form-container">
+          <form action="#">
+            <div class="form-group">
+              <label for="name">Name: </label>
+              <input class="form-control" type="text" name="name" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="family">Family: </label>
+              <input
+                class="form-control"
+                type="text"
+                name="family"
+                id="family"
+              />
+            </div>
+            <div class="form-group">
+              <label for="age">Age: </label>
+              <input class="form-control" type="number" name="age" id="age" />
+            </div>
+            <div class="form-group">
+              <input
+                type="button"
+                class="submit-button"
+                id="submit"
+                value="Submit"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="table-container">
+          <table class="main-table" id="table">
+            <thead>
+              <tr class="row">
+                <th>Name</th>
+                <th>Family</th>
+                <th>Age</th>
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              <tr class="row">
+                <td class="cell">Ada</td>
+                <td class="cell">Lovelace</td>
+                <td class="cell">19</td>
+              </tr>
+              <tr class="row">
+                <td class="cell">Grace</td>
+                <td class="cell">Hopper</td>
+                <td class="cell">31</td>
+              </tr>
+              <tr class="row">
+                <td class="cell">Margaret</td>
+                <td class="cell">Hamilton</td>
+                <td class="cell">22</td>
+              </tr>
+              <tr class="row">
+                <td class="cell">Joan</td>
+                <td class="cell">Clarke</td>
+                <td class="cell">32</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+      <footer>Footer</footer>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
